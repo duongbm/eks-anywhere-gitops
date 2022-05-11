@@ -30,7 +30,7 @@ spec:
   managementCluster:
     name: cluster
   workerNodeGroupConfigurations:
-  - count: 3
+  - count: 2
     machineGroupRef:
       kind: VSphereMachineConfig
       name: cluster
@@ -81,8 +81,8 @@ spec:
   datastore: /CTEL-HNI/datastore/Database-02_ESXi-02
   diskGiB: 25
   folder: /CTEL-HNI/vm/eks-anywhere/k8s
-  memoryMiB: 4096
-  numCPUs: 2
+  memoryMiB: 16384
+  numCPUs: 4
   osFamily: ubuntu
   resourcePool: /CTEL-HNI/host/Cluster-01/Resources
   template: /CTEL-HNI/vm/Templates/ubuntu-v1.22.6-kubernetes-1-22-eks-4-amd64-b7b3eb5
