@@ -81,7 +81,7 @@ spec:
   datastore: /CTEL-HNI/datastore/Database-02_ESXi-02
   diskGiB: 25
   folder: /CTEL-HNI/vm/eks-anywhere/k8s
-  memoryMiB: 8192
+  memoryMiB: 4096
   numCPUs: 2
   osFamily: ubuntu
   resourcePool: /CTEL-HNI/host/Cluster-01/Resources
