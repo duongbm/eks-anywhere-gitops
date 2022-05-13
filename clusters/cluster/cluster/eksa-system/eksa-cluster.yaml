@@ -34,7 +34,7 @@ spec:
     machineGroupRef:
       kind: VSphereMachineConfig
       name: cluster
-    name: md-0
+    name: worker
 
 ---
 apiVersion: anywhere.eks.amazonaws.com/v1alpha1
