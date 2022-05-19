@@ -7,10 +7,11 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         script {
-          sh("git log -1 --pretty=%B").trim()
+          commit = sh("git log -1 --pretty=%B")
+          sh "echo $commit"
         }
 
       }
